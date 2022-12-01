@@ -175,7 +175,7 @@ window.sr = (0,scrollreveal__WEBPACK_IMPORTED_MODULE_1__["default"])();
 sr.reveal(".animation, .hero__image", {
   duration: 0,
   delay: 500,
-  viewFactor: 0.1,
+  viewFactor: 0,
   afterReveal: function (domEl) {
     domEl.innerHTML = `<embed src="` + domEl.dataset.src + `" height="` + domEl.dataset.height + `" > `;
   }
