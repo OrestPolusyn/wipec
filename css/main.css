@@ -1781,7 +1781,8 @@ dialog.modal {
   height: 100%;
   background-color: transparent;
 }
-dialog.modal::before {
+
+.modal::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -1789,7 +1790,7 @@ dialog.modal::before {
   background-color: var(--color-black);
   opacity: 0.2;
 }
-dialog.modal__inner {
+.modal__inner {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1803,22 +1804,22 @@ dialog.modal__inner {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-dialog.modal__content {
+.modal__content {
   padding: 2.6666666667rem 1.3333333333rem;
 }
-dialog.modal__image {
+.modal__image {
   padding: 4rem;
   text-align: center;
   background-color: var(--color-purple-400);
 }
-dialog.modal__title {
+.modal__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 25px;
   line-height: 1.2;
   text-align: center;
 }
-dialog.modal p {
+.modal p {
   margin: 0 auto 20px;
   width: 100%;
   max-width: 310px;
@@ -1827,7 +1828,7 @@ dialog.modal p {
   line-height: 1.8;
   text-align: center;
 }
-dialog.modal__btn {
+.modal__btn {
   margin: 0 auto;
   font-weight: 500;
   font-size: 14px;
